@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hackup-commodore")(type "KiCad")(uri "C:/Users/thejm/OneDrive/Desktop/Handywork/Computers/Commodore VIC-20/Datasette/Boards and footprints from internet/HackupNet-KiCad-Libraries-master/hackup-commodore.kicad_sym")(options "")(descr ""))
+  (lib (name "ROMRAMCart_footpr")(type "KiCad")(uri "${KIPRJMOD}/ROMRAMCart_footpr.kicad_sym")(options "")(descr ""))
+)
