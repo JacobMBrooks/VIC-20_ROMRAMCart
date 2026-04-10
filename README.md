@@ -38,6 +38,8 @@ For those who want to be able to re-configure the board with ease, pads are prov
   - Some cartridges are designed to contain both ROM and RAM. For example, the VIC-1211A Super Expander cartridge contained BASIC extensions as well as 3k of RAM expansion. I believe that some assembler cartridges worked in the same way.
   - If you need the 3k RAM expansion, install the 6264 SRAM chip and the 74LS08. If you don't need it then don't install it.
   - Install 2764 EPROM or 6264 SRAM ICs in whatever positions are required and be sure to set the solder bridges/jumpers to the appropriate position.
+ 
+**NOTE**: The VIC-20 won't report all of a 35k RAM cartridge in "BYTES FREE" at the top of the screen. When the system sees RAM in BLK1/2/3/5, BASIC seems to assume that there is none in the 3k area. 
 
 PCB Manufacturing
 --
